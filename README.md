@@ -1,16 +1,30 @@
-# React + Vite
+# QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu layihə React və Tailwind CSS istifadə edilərək hazırlanmış sadə və funksional QR Code Generator tətbiqidir. 
+Tətbiqin əsas məqsədi istifadəçinin daxil etdiyi mətn və ya link əsasında dərhal QR kod yaratmaqdır.
 
-Currently, two official plugins are available:
+İstifadəçi input sahəsinə istənilən mətn, URL və ya məlumat daxil etdikdə, QR kod avtomatik olaraq yenilənir və ekranda göstərilir. 
+Tətbiq sürətli, istifadəsi rahat və bütün ekran ölçülərinə uyğun şəkildə dizayn edilib.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Layihə minimal və təmiz interfeysə malikdir. 
+Hər hansı əlavə mürəkkəb funksionallıq olmadan əsas ehtiyacı — QR kod yaratmağı — effektiv şəkildə yerinə yetirir.
 
-## React Compiler
+Bu tətbiq şəxsi istifadə, test məqsədləri və ya daha böyük layihələrə inteqrasiya üçün uyğundur.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Xüsusiyyətlər
+- ⚛️ React ilə hazırlanıb
+- 🎨 Tailwind CSS ilə modern UI
+- 🔁 Real-time QR Code generation
+- 📦 qrcode.react kitabxanası
+- 📱 Responsive dizayn
 
-## Expanding the ESLint configuration
+## 🛠️ İstifadə olunan texnologiyalar
+- React
+- Tailwind CSS
+- Vite
+- qrcode.react
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Müəllif
+Firudin Maniyev  
+Junior Full-Stack Developer  
+Email: firudinmaniyev@gmail.com
