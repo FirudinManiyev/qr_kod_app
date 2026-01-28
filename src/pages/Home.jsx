@@ -9,13 +9,13 @@ const Home = () => {
     return (
         <div className="min-h-screen flex items-center justify-center px-4">
             <div className="
-        w-full max-w-md
-        bg-zinc-900
-        p-6 sm:p-8
-        rounded-xl
-        shadow-lg
-        space-y-6
-      ">
+                w-full max-w-md
+                bg-zinc-900
+                p-6 sm:p-8
+                rounded-xl
+                shadow-lg
+                space-y-6
+            ">
                 <h1 className="text-2xl sm:text-3xl font-bold text-center text-yellow-400">
                     QR Code Generator
                 </h1>
@@ -27,6 +27,14 @@ const Home = () => {
                     <QRDownload value={value} />
                 </div>
             </div>
+            <span className="
+                fixed bottom-4 right-4
+                text-xs text-yellow-400/70
+                font-mono
+                select-none
+                ">
+                Düzəltdi: Firudin Maniyev
+            </span>
         </div>
     );
 };
