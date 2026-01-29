@@ -7,7 +7,8 @@ const Home = () => {
     const [value, setValue] = useState("");
 
     return (
-        <div className="min-h-screen flex items-center justify-center px-4">
+        
+        <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-tl from-[#1e293b] via-[#6366f1] to-[#71717a]">
             <div className="
                 w-full max-w-md
                 bg-zinc-900

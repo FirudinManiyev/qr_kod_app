@@ -15,14 +15,22 @@ Bu tətbiq şəxsi istifadə, test məqsədləri və ya daha böyük layihələr
 - ⚛️ React ilə hazırlanıb
 - 🎨 Tailwind CSS ilə modern UI
 - 🔁 Real-time QR Code generation
+- 📁 Mətn və linklər üçün QR kod yaratma
 - 📦 qrcode.react kitabxanası
 - 📱 Responsive dizayn
 
 ## 🛠️ İstifadə olunan texnologiyalar
 - React
-- Tailwind CSS
+- Tailwind CSS (v4)
 - Vite
 - qrcode.react
+
+## 🚀 Necə işləyir?
+
+1. İstifadəçi input-a mətn və ya link daxil edir  
+2. QR kod avtomatik olaraq yaradılır  
+3. QR preview ekranda göstərilir  
+4. Bir kliklə PNG formatında yüklənə bilər 
 
 ## Müəllif
 Firudin Maniyev  
