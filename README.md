@@ -26,7 +26,6 @@ Bu tətbiq şəxsi istifadə, test məqsədləri və ya daha böyük layihələr
 - qrcode.react
 
 ## 🚀 Necə işləyir?
-
 1. İstifadəçi input-a mətn və ya link daxil edir  
 2. QR kod avtomatik olaraq yaradılır  
 3. QR preview ekranda göstərilir  
