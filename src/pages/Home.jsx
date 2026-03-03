@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import QRInput from "../components/QRInput";
 import QRPreview from "../components/QRPreview";
 import QRDownload from "../components/QRDownload";
+import Toast from "../components/Toast";
 
 const Home = () => {
     const [value, setValue] = useState("");
@@ -14,6 +15,8 @@ const Home = () => {
 
         return () => clearTimeout(timer);
     }, []);
+
+    const [showToast, setShowToast] = useState(false);
 
     return (
         <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-neutral-900 via-cyan-900 to-blue-900">
@@ -39,7 +42,10 @@ const Home = () => {
 
                 <div className="flex flex-col items-center gap-4">
                     <QRPreview value={value} />
-                    <QRDownload value={value} />
+                    <QRDownload
+                        value={value}
+                        onDownload={() => setShowToast(true)}
+                    />
                 </div>
             </div>
 
@@ -55,6 +61,12 @@ const Home = () => {
             >
                 Düzəltdi: Firudin Maniyev
             </span>
+
+            <Toast
+                message="QR Code uğurla yükləndi ✅"
+                show={showToast}
+                onClose={() => setShowToast(false)}
+            />
         </div>
     );
 };

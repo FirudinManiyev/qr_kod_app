@@ -1,4 +1,4 @@
-const QRDownload = ({ value }) => {
+const QRDownload = ({ value, onDownload }) => {
     const downloadQR = () => {
         const canvas = document.querySelector("canvas");
         if (!canvas) return;
@@ -8,6 +8,11 @@ const QRDownload = ({ value }) => {
         a.href = url;
         a.download = "fiko-qrcode.png";
         a.click();
+
+        // 🔔 Toast üçün xəbər ver
+        if (onDownload) {
+            onDownload();
+        }
     };
 
     if (!value) return null;
@@ -22,7 +27,9 @@ const QRDownload = ({ value }) => {
                 transition-all duration-300
                 hover:scale-105
                 hover:shadow-[0_0_20px_rgba(250,204,21,0.8)]
-                ">
+                active:scale-95
+            "
+        >
             Download QR
         </button>
     );
