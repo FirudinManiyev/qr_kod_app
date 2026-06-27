@@ -33,5 +33,5 @@ Bu tətbiq şəxsi istifadə, test məqsədləri və ya daha böyük layihələr
 
 ## Müəllif
 Firudin Maniyev  
-Junior Full-Stack Developer  
+Full-Stack Developer  
 Email: firudinmaniyev@gmail.com

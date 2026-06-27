@@ -49,17 +49,16 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Watermark */}
             <span
                 className={`
                 fixed bottom-4 right-4
-                text-xs text-yellow-400/60
-                font-mono select-none
+                text-sm text-yellow-400/60
+                font-mono
                 transition-opacity duration-1000
                 ${show ? "opacity-100" : "opacity-0"}
             `}
             >
-                Düzəltdi: Firudin Maniyev
+                https://github.com/FirudinManiyev
             </span>
 
             <Toast
